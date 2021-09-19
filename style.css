@@ -14,3 +14,42 @@ img
 	width: 250px;
 	border-radius: 50%;
 }
+
+/*# is for distinguishing ID in html file*/
+#landing, #gallery
+{
+	height: 80vh;
+	/*center the content vertically using flexbox*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/*ul = unordered list or bullet points*/
+ul
+{
+	list-style: none;
+	padding: 0;
+}
+
+h2
+{
+	/*to get the color picker https://www.w3schools.com/colors/colors_picker.asp*/
+	color: #007bff; 
+}
+
+.tools 
+{
+  padding: 25px;
+  height: 200px;
+  border: 5px solid #f2f2f2;
+  margin: 20px;
+  width: 75%;
+  color: white;
+}
+
+html
+{
+	scroll-behavior: smooth;
+}
